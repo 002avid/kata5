@@ -25,7 +25,7 @@ public class UserImageLoader implements ImageLoader {
 
             @Override
             public Image next() {
-                return imageAt(i+1) % images.size();
+                return imageAt((i+1) % images.size());
             }
 
             @Override
